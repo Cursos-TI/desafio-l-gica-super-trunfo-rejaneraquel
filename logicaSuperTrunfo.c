@@ -6,6 +6,8 @@
 // Siga os comentários para implementar cada parte do desafio.
 
 int main() {
+    /*
+    
     // Definição das variáveis para armazenar as propriedades das cidades
     char estado1, estado2;
     char codigoCarta1[4], codigoCarta2[4];
@@ -71,37 +73,55 @@ int main() {
     // Pontos Turísticos
     printf("Quantidade de Pontos Turísticos: \n");
     scanf("%d", &pontosTuristicos2);
+*/
+// Variávei previamente definidas para teste
+  char estado1 = 'A';
+  char codigoCarta1[4] = 'A01';
+  char nomeCidade1[20] = 'SP';
+  unsigned long int populacao1 = 12325000;
+  float area1 = 1521.11;
+  float pib1 = 699.28;
+  int pontosTuristicos1 = 50;
+  float densidade1, pibPerCapita1;
 
-    // Calculando densidade populacional
-    densidade1 = populacao1 / area1;
-    densidade2 = populacao2 / area2;
+  char estado2 = 'B';
+  char codigoCarta2[4] = 'B02';
+  char nomeCidade2[20] = 'RJ';
+  unsigned long int populacao2 = 6748000;
+  float area2 = 1200.25;
+  float pib2 = 300.50;
+  int pontosTuristicos2 = 30;
+  float densidade2, pibPerCapita2;
+  // Calculando densidade populacional
+  densidade1 = populacao1 / area1;
+  densidade2 = populacao2 / area2;
 
-    // Calculando PIB Per Capita
-    //  Adicionando a multiplicação para tornar bilhões
-    pibPerCapita1 = (pib1 * 1000000000) / populacao1;
-    pibPerCapita2 = (pib2 * 1000000000) / populacao2;
+  // Calculando PIB Per Capita
+  //  Adicionando a multiplicação para tornar bilhões
+  pibPerCapita1 = (pib1 * 1000000000) / populacao1;
+  pibPerCapita2 = (pib2 * 1000000000) / populacao2;
 
-    // Calculando super poder
-    float superpoder1 = populacao1 + area1 + pib1 + pontosTuristicos1 + pibPerCapita1 + (1 / densidade1);
-    float superpoder2 = populacao2 + area2 + pib2 + pontosTuristicos2 + pibPerCapita2 + (1 / densidade2);
+  // Calculando super poder
+  float superpoder1 = populacao1 + area1 + pib1 + pontosTuristicos1 + pibPerCapita1 + (1 / densidade1);
+  float superpoder2 = populacao2 + area2 + pib2 + pontosTuristicos2 + pibPerCapita2 + (1 / densidade2);
 
-    // Comparação de Cartas:
-    // Desenvolva a lógica de comparação entre duas cartas.
-    // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
+  // Comparação de Cartas:
+  // Desenvolva a lógica de comparação entre duas cartas.
+  // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
 
-    // Exemplo:
-    // if (populacaoA > populacaoB) {
-    //     printf("Cidade 1 tem maior população.\n");
-    // } else {
-    //     printf("Cidade 2 tem maior população.\n");
-    // }
+  // Exemplo:
+  // if (populacaoA > populacaoB) {
+  //     printf("Cidade 1 tem maior população.\n");
+  // } else {
+  //     printf("Cidade 2 tem maior população.\n");
+  // }
 
-    // Exibição dos Resultados:
-    // Após realizar as comparações, exiba os resultados para o usuário.
-    // Certifique-se de que o sistema mostre claramente qual carta venceu e com base em qual atributo.
+  // Exibição dos Resultados:
+  // Após realizar as comparações, exiba os resultados para o usuário.
+  // Certifique-se de que o sistema mostre claramente qual carta venceu e com base em qual atributo.
 
-    // Exemplo:
-    // printf("A cidade vencedora é: %s\n", cidadeVencedora);
+  // Exemplo:
+  // printf("A cidade vencedora é: %s\n", cidadeVencedora);
 
-    return 0;
+  return 0;
 }
