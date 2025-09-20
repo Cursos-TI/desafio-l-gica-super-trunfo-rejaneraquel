@@ -76,8 +76,8 @@ int main() {
 */
 // Variávei previamente definidas para teste
   char estado1 = 'A';
-  char codigoCarta1[4] = 'A01';
-  char nomeCidade1[20] = 'SP';
+  char codigoCarta1[6] = "A01";
+  char nomeCidade1[20] = "SP";
   unsigned long int populacao1 = 12325000;
   float area1 = 1521.11;
   float pib1 = 699.28;
@@ -85,8 +85,8 @@ int main() {
   float densidade1, pibPerCapita1;
 
   char estado2 = 'B';
-  char codigoCarta2[4] = 'B02';
-  char nomeCidade2[20] = 'RJ';
+  char codigoCarta2[6] = "B02";
+  char nomeCidade2[20] = "RJ";
   unsigned long int populacao2 = 6748000;
   float area2 = 1200.25;
   float pib2 = 300.50;
@@ -107,6 +107,19 @@ int main() {
 
   // Comparação de Cartas:
   // Desenvolva a lógica de comparação entre duas cartas.
+  printf("\n*************************Comparação das Cartas*************************\n");
+
+     // População
+    printf("***Atributo: População***\n");
+    printf("Carta 01 %s: %lu habitantes\n", nomeCidade1, populacao1);
+    printf("Carta 02 %s: %lu habitantes\n", nomeCidade2, populacao2);
+    if (populacao1 > populacao2)
+        {
+        printf("Resultado: Carta 01 %s venceu!!! Parabéns!\n", nomeCidade1);
+        } else {
+        printf("Resultado: Carta 02 %s venceu!!! Parabéns\n", nomeCidade2);
+    };
+
   // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
 
   // Exemplo:
