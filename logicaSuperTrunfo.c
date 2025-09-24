@@ -157,7 +157,7 @@ int main() {
           };
           if (populacao1 == populacao2)
           {
-              printf("Houve um empate!!!");
+              printf("Houve um empate!!!\n");
 
           }
           break;
@@ -180,7 +180,7 @@ int main() {
           }
           if (area1 == area2)
           {
-              printf("Houve um empate!!!");
+              printf("Houve um empate!!!\n");
           };
           break;
 
@@ -202,7 +202,7 @@ int main() {
           };
           if (pib1 == pib2)
           {
-              printf("Houve um empate!!!");
+              printf("Houve um empate!!!\n");
           }
           break;
 
@@ -224,7 +224,7 @@ int main() {
           }
           if (pontosTuristicos1 == pontosTuristicos2)
           {
-              printf("Houve um empate!!!");
+              printf("Houve um empate!!!\n");
           };
           break;
 
@@ -246,7 +246,7 @@ int main() {
           }
           if (densidade1 == densidade2)
           {
-              printf("Houve um empate!!!");
+              printf("Houve um empate!!!\n");
           };
           break;
 
@@ -268,7 +268,7 @@ int main() {
           };
           if (pibPerCapita1 == pibPerCapita2)
           {
-              printf("Houve um empate!!!");
+              printf("Houve um empate\n!!!");
           }
           break;
 
@@ -290,7 +290,7 @@ int main() {
             };
             if (superpoder1 == superpoder2)
             {
-                printf("Houve um empate!!!");
+                printf("Houve um empate\n!!!");
             }
             break;
 
@@ -329,7 +329,7 @@ int main() {
           };
           if (populacao1 == populacao2)
           {
-              printf("Houve um empate!!!");
+              printf("Houve um empate!!!\n");
           }
           break;
 
@@ -351,7 +351,7 @@ int main() {
           }
           if (area1 == area2)
           {
-              printf("Houve um empate!!!");
+              printf("Houve um empate!!!\n");
           };
           break;
 
@@ -373,7 +373,7 @@ int main() {
           };
           if (pib1 == pib2)
           {
-              printf("Houve um empate!!!");
+              printf("Houve um empate!!!\n");
           }
           break;
 
@@ -395,7 +395,7 @@ int main() {
           }
           if (pontosTuristicos1 == pontosTuristicos2)
           {
-              printf("Houve um empate!!!");
+              printf("Houve um empate!!!\n");
           };
           break;
 
@@ -417,7 +417,7 @@ int main() {
           }
           if (densidade1 == densidade2)
           {
-              printf("Houve um empate!!!");
+              printf("Houve um empate!!!\n");
           };
           break;
 
@@ -439,7 +439,7 @@ int main() {
           };
           if (pibPerCapita1 == pibPerCapita2)
           {
-              printf("Houve um empate!!!");
+              printf("Houve um empate!!!\n");
           }
           break;
 
@@ -461,7 +461,7 @@ int main() {
             };
             if (superpoder1 == superpoder2)
             {
-                printf("Houve um empate!!!");
+                printf("Houve um empate!!!\n");
             }
             break;
 
